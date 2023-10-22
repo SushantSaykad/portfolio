@@ -128,3 +128,28 @@ hr{
 .skill-color{
     color: #11999E;
 }
+/* Add a media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .top-container {
+      padding-top: 50px; /* Adjust top padding for smaller screens */
+    }
+  
+    .middle-container .skill-row {
+      width: 80%; /* Make the skill rows wider for smaller screens */
+    }
+  
+    .contact-message {
+      width: 80%; /* Make the contact message wider for smaller screens */
+    }
+  
+    .footer-link {
+      font-size: 14px; /* Reduce the font size of footer links for smaller screens */
+    }
+  
+    .copyright {
+      font-size: 12px; /* Reduce the font size of the copyright text for smaller screens */
+    }
+  
+    /* You can continue to adjust other styles as needed */
+  }
+  
