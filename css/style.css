@@ -58,6 +58,9 @@ hr {
   width: 50%;
   margin: auto;
 }
+.workExperience{
+  color: #66bfbf;
+}
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -104,10 +107,11 @@ hr {
   background-image: linear-gradient(to bottom, #11cdd4, #11999a);
   -webkit-border-radius: 12;
   -moz-border-radius: 12;
-  border-radius: 12px;
+  border-radius: 7px;
   font-family: "Montserrat", sans-serif;
   color: #fcfcfc;
   font-size: 20px;
+  /* font-weight: 450; */
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
